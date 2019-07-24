@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ffffff">
+        <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+        android:layout_weight="9">
+
+        </androidx.viewpager.widget.ViewPager>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="horizontal">
+                <Button android:id="@+id/buttonl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="全屏查看"
+
+                        android:textColor="@android:color/white"/>
+                <!-- android:background="@drawable/shape" -->
+                <Button
+                        android:id="@+id/buttond"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="下载壁纸"
+
+                        android:textColor="@android:color/white"/>
+                <!-- android:background="@drawable/shape" -->
+        </LinearLayout>
+
+</LinearLayout>

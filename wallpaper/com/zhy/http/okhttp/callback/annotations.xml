@@ -1,0 +1,5 @@
+<root>
+    <item name='com.zhy.http.okhttp.callback.StringCallback'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
